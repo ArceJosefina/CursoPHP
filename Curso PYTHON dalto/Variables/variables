@@ -1,0 +1,25 @@
+#Sumando Numeros
+#numero = 10
+#numero +=5
+#print(numero) tira 15
+
+#Definiendo una variable con camelCase
+nombreCompleto = 'Lucas Perez'
+
+#Definiendo una variable con snake_case
+#recomendado por python
+nombre_completo = 'Lucas Perez'
+
+#DEFINIENDO UNA VARIABLE
+nombre = 'Lucas'
+
+#CONCATENAR CON +
+bienvenida = 'Hola' + '¿Cómo estas?'
+
+#CONCATENAR CON f+strings
+bienvenida = f'Hola {nombre} ¿Cómo estas?'
+
+#OPERADORES DE PERTNENCIA (IN/ NOT IN)
+
+print ('Lucas' in bienvenida) #true
+print ('Lucas' not in bienvenida) #false

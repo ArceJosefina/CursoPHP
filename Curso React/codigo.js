@@ -30,7 +30,7 @@ let nombre2 = prompt("Decimme tu nombre");
 document.write("hola " + nombre2 + " como estas?"+ "<br>");
 alert("hola " + nombre2 + " Estas en mi pagina");
 
-let num2= Number(prompt("Decime un numero"));
+let num1= Number(prompt("Decime un numero"));
 let num2= Number(prompt("Decime otro numero"));
 
 document.write("el resultado de tu suma es:"+(num1+num2));

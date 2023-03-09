@@ -1,13 +1,26 @@
-/* ejercicios 11*/
-/* ejercicios 12*/
-/* ejercicios 13*/
-/* ejercicios 14*/
-/* ejercicios 15*/
+/* ejercicios 11 - Todos los párrafos deben tener 25 pixeles de tamaño de fuente*/
+<p>{
+    font-size:25px;
+}
 
+/* ejercicios 12 - Todas las imágenes deben estar alineadas al centro*/
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* ejercicios 13 - El footer debe tener color de fondo darkgray y letras blancas*/
+footer{
+    color:white;
+    background-color: darkgray;
+}
+
+/* ejercicios 14 - Alinear el h1 al centro, desde la hoja de estilos*/
 h1{
     text-align: center;
 }
 
-<p>{
-    font-size:25px;
+/* ejercicios 15 - Utilizar el selector univeral para aplicar una fuente courier*/
+*{
+    font-family: Courier;
 }

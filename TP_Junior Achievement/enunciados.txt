@@ -8,10 +8,6 @@ Ejercicio 8:
 Convertir esta imágen en un link que nos lleve a https://iguazuargentina.com/es/index
 Convertir a esta lista en una lista ordenada
 Alinear el h1 al centro, desde la hoja de estilos
-
-
-
-Ejercicio 10:
 Colocar un id a este div
 
 Ejericico 7: 

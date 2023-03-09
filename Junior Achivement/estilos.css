@@ -4,8 +4,19 @@
     
 h1{
     color:blue;
+    font-family:'Courier New';
+    font-size:50px;
+    font-weight:30px;
+    background-color: cornflowerblue;
+    border: solid 5px black;
+    padding: 20;
+    margin: 40px;
+    background-image: url(fondo.jpg);
 }
 
+body{
+    background-image: url(fondo2.jpg);
+}
 h2{
     color:greenyellow;
 }

@@ -1,5 +1,10 @@
+/* ejercicios 15 - Utilizar el selector univeral para aplicar una fuente courier*/
+*{
+    font-family: Courier;
+}
+
 /* ejercicios 11 - Todos los párrafos deben tener 25 pixeles de tamaño de fuente*/
-<p>{
+p{
     font-size:25px;
 }
 
@@ -20,7 +25,4 @@ h1{
     text-align: center;
 }
 
-/* ejercicios 15 - Utilizar el selector univeral para aplicar una fuente courier*/
-*{
-    font-family: Courier;
-}
+

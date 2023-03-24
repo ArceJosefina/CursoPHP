@@ -22,7 +22,7 @@ h2 {
     font-size: 30px;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    background-color: rgba(250, 151, 69, 0.53);
+    background-color: rgba(65, 93, 233, 0.858);
     margin-top: 10px;
     padding: 10px;
 }
@@ -94,7 +94,7 @@ footer {
 }
 
 .barras{
-    background-color: rgb(250, 127, 27);
+    background-color: rgb(145, 187, 240);
     color: rgb(0, 0, 0);
     font-size: 25px;
     padding: 1px;
@@ -107,6 +107,6 @@ footer {
 }
 
 .background-galeria{
-    background-color: rgb(233, 194, 218) !important;
+    background-color: rgb(202, 238, 239) !important;
 }
 

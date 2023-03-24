@@ -9,7 +9,6 @@ header {
 
 body {
     margin: 0px;
-    background-image: url(../imagenes/fondo_ladrillo_blanco.avif);
 }
 
 h1 {
@@ -100,5 +99,14 @@ footer {
     font-size: 25px;
     padding: 1px;
 
+}
+
+
+.background-foto{
+    background-image: url(../imagenes/fondo_ladrillo_blanco.avif);
+}
+
+.background-galeria{
+    background-color: rgb(233, 194, 218) !important;
 }
 

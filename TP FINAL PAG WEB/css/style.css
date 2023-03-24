@@ -74,11 +74,31 @@ text-align: center;
 
 form{
     padding: 10px;
+    margin-bottom: 20px;
+    border: solid 2px rgb(255, 155, 155);
+    background-color: rgba(65, 255, 255, 0.464);
+}
+
+form:hover{
+    border: solid 2px rgb(177, 231, 29);
+    background-color: rgb(36, 191, 191);
+    box-shadow: 5px 5px 5px 0px #888888;
+  
 }
 
 footer {
-    background-color: #f29007fb;
+    background-color:rgba(44, 44, 44, 0.873);
     color: rgb(255, 255, 255);
     text-align: center;
-    height: 80px;
+    padding: 10px;
+    height: 20px;
 }
+
+.barras{
+    background-color: rgb(250, 127, 27);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 1px;
+
+}
+

@@ -1,0 +1,42 @@
+
+
+
+
+h1 {
+    background-color: black;
+    color: white;
+    font-size: small;
+}
+
+h1 {
+    background-color: chartreuse;
+    color: brown;
+    
+}
+
+h2 {
+
+    color: coral;
+
+}
+
+div {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: darkcyan;
+}
+
+nav {
+
+    background-color: lawngreen;
+}
+
+main {
+    background-color: darksalmon;
+}
+
+footer {
+    background-color: grey;
+}

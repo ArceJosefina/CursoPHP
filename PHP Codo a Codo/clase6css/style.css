@@ -1,0 +1,37 @@
+h2 {
+    color: blue;
+}
+
+#primer-h2 {
+    color: brown;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+div {
+    background-color: blueviolet;
+    color: crimson;
+    width: 50%!important;
+    height: 200px;
+}
+
+#primer-div {
+    background-color: coral;
+    width: 30%;
+   
+}
+
+div {
+    background-color: blueviolet;
+    color: crimson;
+    width: 20%;
+    height: 200px;
+}
+
+.segundo-h2{
+    color: darkseagreen;
+    font-size: xx-small;
+}

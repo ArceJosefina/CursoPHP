@@ -1,21 +1,12 @@
 /* header */
 
 header {
-    background-image: url(../imagenes/coro_1.png);
+    background-image: url(../IMG/buscaminas1.webp);
     background-position: center;
     padding: 60px;
     text-align: center;
 
 }
-
-header h1 {
-    font-size: 60px;
-    margin: auto;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
-    color: rgb(255, 255, 255);
-}
-
-
 
 /* para centrar los textos */
 
@@ -34,34 +25,16 @@ header h1 {
 
 }
 
-.barras a {
-    /* saca el subrayado */
-    text-decoration: none;
-    /* para cambiar color de las  etiquetas "a" */
-    color: white;
-}
-
-.barras a:visited {
-    color: rgb(18, 25, 209);
-}
 
 /* primer pagina al ingresar */
 .ingreso {
     position: relative;
     width: auto;
-    height: 500px;
-    background-image: url(../imagenes/ingresar.png);
-    background-size: cover;
-}
-
-.ingreso::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    height: 400px;
+    background-image: url(../IMG/windows.jpeg);
+    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
 
 .ingreso a {
@@ -79,18 +52,16 @@ header h1 {
 }
 
 .ingreso a:hover {
-    text-shadow: 2px 2px 3px rgb(28, 29, 29);
-    scale: 1.07;
-    color: rgb(57, 173, 219);
+    color: rgb(38, 21, 187);
+    text-shadow: 5px 2px 3px rgb(255, 255, 255);
 
 }
 
 /* barras nav */
 
 nav {
-    background-color: #333;
+    background-color: #1da088;
     height: 60px;
-    width: 100%;
     /* pone uno alado del otro */
     display: flex;
     /*centra a lo ancho*/
@@ -100,7 +71,7 @@ nav {
 }
 
 nav:hover {
-    background-color: #3865ea;
+    background-color: #04802f;
 
 }
 
@@ -112,20 +83,17 @@ nav ul {
     padding: 0;
 }
 
-nav li {
-    margin: 0 10px;
-}
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px;
     border-radius: 4px;
 }
 
 nav a:hover {
-    background-color: #2849dd;
+    background-color: #23a7a9a4;
 }
 
 body {
@@ -133,24 +101,6 @@ body {
 }
 
 /* Estilos de Titulo, Subtitulo y Parrafos */
-
-.titulo {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgb(90, 182, 201);
-    box-shadow: 0px 0px 10px rgb(71, 92, 175);
-    background-color: rgba(143, 195, 228, 0.858);
-    margin-top: 10px;
-    padding: 10px;
-
-}
-
-.titulo:hover {
-    text-shadow: 2px 2px 5px rgba(49, 137, 155, 0.897);
-    box-shadow: 0px 0px 15px rgb(73, 100, 206);
-}
-
 
 .parrafos {
     text-align: justify;
@@ -211,31 +161,6 @@ body {
 }
 
 
-.background-foto {
-    background-image: url(../imagenes/fondo_ladrillo_blanco.avif);
-}
-
-.background-galeria {
-    background-color: rgb(202, 238, 239) !important;
-}
-
-.docentes {
-
-    margin-left: 0% !important;
-}
-
-.docentes ul {
-
-    /* le saca las viñetas */
-    list-style: none;
-    margin: 20px;
-    padding: 20px;
-}
-
-.docentes li {
-    margin: 20px 20px;
-}
-
 
 .Contacto {
     padding-top: 15px;
@@ -263,6 +188,6 @@ footer {
     background-color: rgba(44, 44, 44, 0.873);
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 10px;
-    height: 20px;
+    padding: 20px;
+    height: -1px;
 }

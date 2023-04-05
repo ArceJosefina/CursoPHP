@@ -1,20 +1,41 @@
 /* header */
 
 header {
-    background-image: url(../IMG/buscaminas1.webp);
-    background-position: center;
-    padding: 60px;
-    text-align: center;
-
-}
-
-/* para centrar los textos */
-
-.centrar-texto {
+    background-image: url(/IMG/background1.jpg);
+    background-size: cover;
+    font-size: 20px;
+    padding: 50px;
     text-align: center;
 }
 
-/* son las barras de arriba y arriba del footer */
+
+/* barras nav */
+nav {
+    background-color: #1da088;
+    height: 60px;
+    /* pone uno alado del otro */
+    display: flex;
+    /*centra a lo ancho*/
+    justify-content: center;
+    /*centra a lo alto*/
+    align-items: center;
+}
+
+nav:hover {
+    background-color: #04802f;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #23a7a9a4;
+}
 
 .barras {
     background-color: rgba(44, 44, 44, 0.663);
@@ -22,7 +43,6 @@ header {
     padding: 1px;
     /* cambia el color de las palabras entre las etiquetas "a"*/
     color: white;
-
 }
 
 
@@ -37,87 +57,30 @@ header {
     background-size: cover;
 }
 
-.ingreso a {
-    /* saca el subrayado */
-    text-decoration: none;
-    /* para cambiar color de las  etiquetas "a" */
-    color: white;
-    position: absolute;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
-    /*centra a la mitad de alto y ancho*/
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-}
-
-.ingreso a:hover {
-    color: rgb(38, 21, 187);
-    text-shadow: 5px 2px 3px rgb(255, 255, 255);
-
-}
-
-/* barras nav */
-
-nav {
-    background-color: #1da088;
-    height: 60px;
-    /* pone uno alado del otro */
-    display: flex;
-    /*centra a lo ancho*/
-    justify-content: center;
-    /*centra a lo alto*/
-    align-items: center;
-}
-
-nav:hover {
-    background-color: #04802f;
-
-}
-
-nav ul {
-    /* le saca las viñetas */
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 4px;
-}
-
-nav a:hover {
-    background-color: #23a7a9a4;
-}
-
-body {
-    margin: 0px;
-}
-
 /* Estilos de Titulo, Subtitulo y Parrafos */
-
-.parrafos {
-    text-align: justify;
+ 
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(152, 209, 190, 0.677);
     font-size: 20px;
-    margin: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 20px;
     padding: 10px;
-    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgba(50, 176, 210, 0.704);
+    box-shadow: 0px 0px 10px rgb(68, 72, 153);
+    color: rgb(255, 255, 255);
 }
 
 .titulo-sub {
-    text-align: center;
     font-size: 20px;
-    margin: 20px;
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
-    background-color: rgba(77, 231, 231, 0.789);
-    box-shadow: 0px 0px 10px rgb(32, 151, 137);
+    background-color: rgba(182, 175, 181, 0.789);
+    box-shadow: 0px 0px 10px rgb(58, 236, 70);
     color: rgb(0, 0, 0);
 }
 
@@ -125,61 +88,17 @@ body {
     box-shadow: 0px 0px 10px rgb(137, 22, 186);
 }
 
-.titulo-sub-cartel {
-    text-align: center;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 5px rgba(107, 107, 107, 0.897);
-    background-color: rgba(222, 118, 200, 0.789);
-    box-shadow: 0px 0px 10px rgb(119, 71, 215);
-    margin: 20px;
-    padding: 10px;
-    border-radius: 7px;
-}
-
-/* Centrado */
-
-.centrar-img {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
-
-.centrar-img img {
-    display: block;
-    margin: 0 auto;
-    box-shadow: 0px 0px 10px rgb(77, 200, 200);
-}
-
-.redondear {
-    border-radius: 10%;
-
-}
-
-.redondear:hover {
-    border-radius: 50%;
-}
-
-
-
-.Contacto {
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
-    font-size: 20px;
-    color: black;
-}
 
 form {
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
-    text-align: center;
-    background-color: rgba(192, 60, 163, 0.789);
-    box-shadow: 0px 0px 10px #76399c;
+    text-align: center ;
+    background-color: rgb(156, 215, 235);
+    box-shadow: 0px 0px 10px #0a195efc;
 }
 
 form:hover {
-    background-color: rgba(222, 118, 200, 0.789);
+    background-color: rgba(118, 161, 222, 0.789);
 
 }
 
@@ -190,4 +109,9 @@ footer {
     text-align: center;
     padding: 20px;
     height: -1px;
+}
+
+
+body{
+    background-image: url(/IMG/background);
 }

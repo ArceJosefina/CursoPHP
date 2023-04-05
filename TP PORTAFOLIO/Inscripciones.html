@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="ICONS/icono.png" type="image/x-icon">
+    <title>Inscripciones</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+    <nav>
+        <a href="Inicio.html">Inicio</a> |
+        <a href="SobreMi.html">Sobre Mi</a> |
+        <a href="Galeria.html">Galeria</a> |
+        <a href="Propuesta.html">Propuesta</a> |
+        <a href="Inscripciones.html">Inscripciones</a>
+    </nav>
+</header>
+
+<body>
+    <h1><i>Formulario de Inscripcion:</i></h1>
+
+    <form class="form" action="datos.php" method="post">
+
+        <!--accion a donde voy a enviar los datos.
+- metodo post usar para informacion sensible
+ -etodo get los datos son visibles en el url-->
+
+        <fieldset name="Informacion Personal">
+            <legend>Datos Personales: </legend>
+            <p>Nombres: <input type="text" required="required" maxlength="20" placeholder="Ingrese su nombre"
+                    size="50px"></p>
+
+            <p> Apellido: <input type="text" required="required" placeholder="Ingrese su Apellido" size="50px"></p>
+
+            <p>Edad: <input type="number" required="required" placeholder="Ingrese su edad" size="50px"></p>
+
+            <p>Fecha de Nacimiento: <input type="date" required="required" maxlength="20"
+                    placeholder="Ingrese su fecha de nacimiento" size="50px"></p>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset name="contacto">
+            <legend>Informacion de Contacto: </legend>
+
+            <p>Celular: <input type="text" required="required" placeholder="Ingrese su numero de contacto" size="50px">
+            </p>
+
+            <p> Correo: <input type="email" required="required" placeholder="Ingrese su correo electronico" size="50px">
+            </p>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset name="contacto">
+            <legend>Trabajo: </legend>
+
+            <p>Sobre Usted: <input type="text" required="required" placeholder="Sobre usted.." size="50px">
+            </p>
+
+            <p>Pagina Web: <input type="url" placeholder="Ingrese url de su pagina web" size="50px"></p>
+
+            <p>GitHub: <input type="url" placeholder="Ingrese url de su GitHub" size="50px"></p>
+
+            <p>Linkedin: <input type="url" placeholder="Ingrese url de su Linkedin" size="50px"></p>
+
+            <p>Situacion Laboral: <input type="text" placeholder="Ingrese situacion actual" size="50px" list="Puestos"><p>
+
+                <datalist id="Puestos">
+                <option value="Estudiante"></option>
+                <option value="Empleado"></option>
+                <option value="Desempleado"></option>
+                <option value="Emprendedor"></option>
+                </details>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Conocimiento en Informática: </legend>
+
+            <p><input type="checkbox" name="Word"> Word Básico
+                <input type="checkbox" name="Word"> Word Intermedio
+                <input type="checkbox" name="Word"> Word Avanzado
+            </p>
+
+            <p><input type="checkbox" name="Excel"> Excel Básico
+                <input type="checkbox" name="Excel"> Excel Intermedio
+                <input type="checkbox" name="Excel"> Excel Avanzado
+            </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Idiomas: </legend>
+            <p> Marque si tiene algun conocimiento previo.</p>
+
+            <p> <input type="radio" name="Inglés"> Inglés
+                <input type="radio" name="Portugués"> Portugués
+                <input type="radio" name="Alemán"> Alemán
+                <input type="radio" name="Chino"> Chino
+                <input type="radio" name="Otro"> Otro
+            </p>
+        </fieldset>
+
+
+        <br>
+
+        <fieldset>
+            <p>Curso: <input type="text" placeholder="Ingrese nombre del curso al que desea inscribirsel" size="50px" list="Cursos"><p>
+                <datalist id="Cursos">
+                        <option value="CURSO DE BÁSICO DE COMPUTACIÓN"></option>
+                        <option value="CURSO DE WORD BÁSICO"></option>
+                        <option value="CURSO DE EXCEL BÁSICO"></option>
+                </details>
+
+            <p>Fecha y Hora de Inscripcion: <input type="datetime-local" required="required" maxlength="20"
+                    placeholder="Ingrese fecha y hora" size="50px"></p>
+        </fieldset>
+
+        <br>
+        <input type="submit"> <input type="reset"> <br><br>
+
+    </form>
+
+</body>
+
+<nav>
+    <a href="https://goo.gl/maps/PsdkpiUZRuqz1p9K6" target="_blank">Ubicación</a> | <a href="contacto.html">Contacto</a>
+    | <a href="mailto:corodeniñosm@ficticiogmail.com?subject=Asunto del mensaje&body=Cuerpo del mensaje">Enviar
+        correo</a>
+</nav>
+
+<footer>
+    <p>Arce Josefina . M © 2023 - Programa Codo a Codo - PHP</p>
+</footer>
+
+</body>
+
+</html>
